@@ -1,0 +1,4 @@
+baseURL = 'https://su55y.github.io/rss-test/'
+languageCode = 'en-us'
+title = 'RSS Test'
+theme = 'lugo'

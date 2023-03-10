@@ -1,0 +1,33 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>RSS Test</title>
+	<link>https://su55y.github.io/hugo-test-rss.github.io/</link>
+	<description>Recent content on RSS Test</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+    
+        <atom:link href="https://su55y.github.io/hugo-test-rss.github.io/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Post2</title>
+		<link>https://su55y.github.io/hugo-test-rss.github.io/post2/</link>
+		<pubDate>Fri, 10 Mar 2023 18:53:00 +0200</pubDate>
+		
+		<guid>https://su55y.github.io/hugo-test-rss.github.io/post2/</guid>
+		<description>&lt;p&gt;post 2&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Post1</title>
+		<link>https://su55y.github.io/hugo-test-rss.github.io/post1/</link>
+		<pubDate>Fri, 10 Mar 2023 18:52:48 +0200</pubDate>
+		
+		<guid>https://su55y.github.io/hugo-test-rss.github.io/post1/</guid>
+		<description>&lt;p&gt;post 1&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>
