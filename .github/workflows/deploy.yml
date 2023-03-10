@@ -1,3 +1,5 @@
+env:
+  PATH: ${{ github.workspace }}/actions_hugo/bin:${{ env.PATH }}
 name: Deploy to GitHub Pages
 on:
   push:
