@@ -27,4 +27,3 @@ jobs:
           publish_dir: ./public
           publish_branch: gh-pages
           cname: su55y.github.io
-          commit_message: Deploy site
