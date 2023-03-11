@@ -1,4 +1,16 @@
-baseURL = 'https://su55y.github.io/rss-test/'
+baseURL = 'https://su55y.github.io/rss-test'
 languageCode = 'en-us'
 title = 'RSS Test'
-theme = 'lugo'
+[params]
+  # "relatedtext" is the text that appears above the tag list at the bottom of pages.
+  relatedtext = "Related"
+  favicon = "/favicon.ico"
+
+  #list items
+  datesinlist = true
+  authorsinlist = true
+
+  #footer items
+  nextprev = true
+  taglist = true
+  showrss = true

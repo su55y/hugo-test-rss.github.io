@@ -1,7 +1,37 @@
+:root {
+  --black: #282828;
+  --black-dark: #1d2021;
+  --black-light: #3c3836;
+  --white: #ebdbb2;
+  --white-dark: #d5c4a1;
+  --white-light: #f2e5bc;
+  --blue: #458588;
+  --blue-light: #83a598;
+  --blue-dark: #076678;
+  --red: #cc241d;
+  --red-dark: #9d0006;
+  --red-light: #fb4934;
+  --green: #98971a;
+  --green-dark: #79740e;
+  --green-light: #b8bb26;
+  --orange: #d65d0e;
+  --orange-dark: #af3a03;
+  --orange-light: #fe8019;
+  --yellow: #d79921;
+  --yellow-dark: #b57614;
+  --yellow-light: #fabd2f;
+  --purple: #b16286;
+  --purple-dark: #8f3f71;
+  --purple-light: #d3869b;
+  --cyan: #689d6a;
+  --cyan-dark: #427b58;
+  --cyan-light: #8ec07c;
+}
+
 body {
   font-family: sans-serif;
-  background: #282828;
-  color: #ebdbb2;
+  background: var(--black);
+  color: var(--white);
 }
 
 main {
@@ -22,17 +52,37 @@ footer {
   clear: both;
 }
 
+a.home-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+a.home-button:not(:hover):not(:first-of-type) > svg {
+  opacity: 0.7;
+}
+a.home-button:hover::after {
+  background-image: unset;
+}
+a.home-button > svg {
+  opacity: 1;
+  height: 96px;
+  transition: 100ms all linear;
+  fill: var(--orange-dark);
+}
+a.home-button > svg:hover {
+  fill: var(--orange);
+}
+
 a,
 a:visited {
-  color: #076678;
+  color: var(--blue);
   transition: all 50ms linear;
   position: relative;
 }
 
 a:hover {
-  color: #07a3aa;
+  color: var(--blue-light);
   text-decoration: none;
-  font-weight: 450;
 }
 
 a:hover::after {
