@@ -26,7 +26,6 @@
   </head>
 
   <body>
-    <!-- prettier-ignore -->
     {{ if .Site.Menus.main }}
         {{ partial "nav.html" . }}
     {{ end -}}
@@ -38,7 +37,6 @@
         <h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1>
       </header>
       <article>
-        <!-- prettier-ignore -->
         {{ block "main" . }} {{ .Content }} {{ end }}
         {{ if .Param "nextprev" }}
             {{ partial "nextprev.html" . -}}
